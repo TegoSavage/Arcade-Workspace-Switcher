@@ -17,20 +17,34 @@ Un applet de panel de Cinnamon que reemplaza el cambiador de espacios de trabajo
 - Personalización completa de colores: color de Pac-Man, color de fantasma, color de ojos del fantasma, color de pac-punto
 - Controles de tamaño de icono y espaciado
 
-## Instalación
 
-### Desde Cinnamon Spices (recomendado)
-Busca **"Pacman Workspace Switcher"** en *Configuración del Sistema → Applets → Descargar*.
 
-### Manual
+### Instalacion
 ```bash
 git clone https://github.com/TegoSavage/Arcade-Workspace-Switcher ~/.local/share/cinnamon/applets/pacman-workspace@tegouwu
 ```
-Luego haz clic derecho en el panel → *Agregar applets al panel* → encuentra **Pacman Workspace Switcher**.
+
+## Manual
+ una vez clonado el repositorio y movido la carpeta a  ```~/.local/share/cinnamon/applets/ ```
+ sigue las instruccines de las imagenes
+
+![Instalación desde Cinnamon Spices](./assets/1.png)
+
+### En tu panel de aplicaciones busca ```miniaplicaciones```
+
+
+
+Luego **Pacman Workspace Switchery y presiona el boton de +**.
+
+![Agregar al panel](./assets/2.png)
 
 ## Configuración
 
-Haz clic derecho en el applet → **Configurar...**
+Haz clic en el boton de → **Configurar...**
+
+![Panel de configuración 1](./assets/3.png)
+
+![Panel de configuración 2](./assets/4.png)
 
 | Opción | Descripción |
 |---------|-------------|
@@ -44,6 +58,16 @@ Haz clic derecho en el applet → **Configurar...**
 | Color de fantasma / Color de ojos | Colores personalizados cuando el modo clásico está desactivado |
 | Color de pac-punto | Color de los puntos en modo pac-punto |
 | Puntos de recuento de ventanas | Mostrar cuántas ventanas están abiertas por espacio de trabajo |
+
+
+## Listo ya tiene el nuevo workpace de pacman en tu linux mint :)
+
+
+**Si vez que tiene el de pacman y el por defecto de linux mint, puede desactivalo buscandolo como en la imagen y presionando la tecla -**
+
+
+
+![Panel de configuración 3](./assets/5.png)
 
 ## Requisitos
 
